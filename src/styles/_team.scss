@@ -1,0 +1,91 @@
+.team {
+  margin: 200px 0;
+  font-family: "Poppins", sans-serif;
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .team_photo1 {
+    display: flex;
+    flex-direction: column;
+    .first {
+      width: 100px;
+      height: auto;
+      object-fit: cover;
+    }
+    .second {
+      width: 75px;
+      height: auto;
+      object-fit: cover;
+      margin: 0 0 0 auto;
+    }
+
+    .third {
+      width: 50px;
+      height: auto;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+  }
+  .content_team {
+    h1 {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      font-size: 100px;
+      font-weight: bold;
+      color: #525ffb;
+    }
+  }
+  .team_photo2 {
+    display: flex;
+    flex-direction: column;
+    .first {
+      width: 75px;
+      height: auto;
+      object-fit: cover;
+      margin: 0 0 0 auto;
+    }
+    .second {
+      width: 50px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .third {
+      width: 100px;
+      height: auto;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+  }
+}
+@media(max-width:991.98px)
+{
+  .team{
+    margin: 70px 0;
+    h3{
+      font-size: 36px;
+    }
+    .content_team{
+      h1{
+        font-size: 80px;
+      }
+    }
+  }
+}
+@media(max-width:575.98px){
+  .team{
+    h3{
+      font-size: 20px;
+    }
+    .content_team{
+      h1{
+        font-size: 50px;
+      }
+    }
+  }
+}
